@@ -1,0 +1,53 @@
+
+@media (max-width:1199px) {
+
+	.tips {
+	 	flex-basis: 100%;
+	}
+
+}
+
+@media (max-width:775px) {
+	
+	.footer_all {
+		flex-direction: column;
+	}
+	.footer_me{
+		text-align: center;
+
+	}
+
+}
+
+@media (max-width:630px) {
+
+	.menu > ul {
+       flex-direction: column;
+    }
+
+	.footer_tools {
+		text-align: center;
+	}
+
+	.menu ul li {
+	  margin: 10px;
+	}
+
+	* {
+		font-size: 14px;
+	}
+  
+}
+
+@media (min-width:1400px) {
+
+	body{
+		font-size: 25px;
+	}
+
+	img{
+		width: 450px;
+		height:450px;
+	}
+
+}
